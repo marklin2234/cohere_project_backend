@@ -44,4 +44,5 @@ def handle_get_request():
     return payload
 
 if __name__ == '__main__':
+    # TODO: throw this call and add another thread to handle mail imap details
     app.run(host="0.0.0.0", port=5000)
